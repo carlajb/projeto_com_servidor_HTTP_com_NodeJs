@@ -1,0 +1,76 @@
+
+
+
+
+<div class="row">
+<div class="col-md-4 mb-2">
+<div class="container">
+
+
+
+<div>
+    <h1> <p class="text-white"></p>Fale conosco</hp></h1>
+</div>
+
+
+           <form action="/add" method="POST">
+
+            <label for="produto">nome do produto:</label> 
+            <input class="form-control" id="produto" type="text" name="produto">
+
+             <label for="sobrenome">Sobrenome:</label> 
+            <input class="form-control" id="sobrenome" type="text" name="sobrenome">
+            
+
+            <label for="email">email</label>
+            <input class="form-control" id="email" type="email" name="email"><br>
+            
+
+         <select class="form-select" aria-label="Default select example" nome="assunto">
+           <option selected>Assunto</option>
+           <option value="1">Doacao</option>
+           <option value="2">Informacao</option>
+           <option value="3">Outros...</option>
+         </select>       
+
+         <label nome="mensagem" for="mensagem">Mensagem</label>
+         <textarea class="form-control" id="mensagem"name="mensagem" rows="3"></textarea>
+
+
+            <button class="btn btn-outline-success mt-2" type="submit">cadastrar pedido</button>
+          
+             <button class="btn btn-outline-success mt-2" type="submit"><a href="/cad" >verificar pedidos cadastrado no banco </a></button>
+
+            {{!-- <button type="submit"> <a href="/cad" >verificar pedidos pelo banco</button> --}}
+        </form>
+    </div>
+
+</div>
+</div>
+</div>
+
+{{!-- bg-danger mb-2" --}}
+
+
+
+
+{{!-- <div class="p-3 mb-2 bg-secondary">
+
+<div class="card text-center">
+  <div class="card-header">
+ <h4><div class="bg-danger mb-2">Eu te ajudo</div></h4>
+  </div>
+  <div class="card-body" "bg-secondary">
+    <p class="text-primary" >Email projeto_euteajudo@hotmail.com</p>
+     <p class="text-primary">(11) 98055-1111</p>
+    
+    
+    <h5 class="card-title" >Projeto grupo Recode</h5>
+   
+  </div>
+  <div class="card-footer text-muted" >
+   
+  </div>
+</div>
+</div> --}}
+

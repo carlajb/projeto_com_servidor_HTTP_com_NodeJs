@@ -1,0 +1,29 @@
+
+ <a href="/formulario"<button>voltar ao fromulario</button></a>
+
+<h1>CONTEUDO DO BANCO DE DADOS</h1>
+
+
+{{#each posts}}
+
+<small>{{dataValues.createdAt}}</small>
+
+  <hi>{{dataValues.cod_produto}}</h1>
+    
+  <p>{{dataValues.nome_produto}}<br></p>
+
+  <p> {{dataValues.quantidade_produto}}<br></p>
+
+   <p> {{dataValues.sobrenome}}<br></p>
+
+  <p> {{dataValues.assunto}}<br></p>
+
+  <p> {{dataValues.mensagem}}<br></p>
+
+
+
+  <a href="/deletar/{{dataValues.id}}"<button>Deletar</button></a>
+ 
+
+     <hr>
+{{/each}}

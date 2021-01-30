@@ -1,0 +1,57 @@
+
+
+       {{!-- <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h3>Achar endereco pelo CEP</h3>           
+            </div>
+    
+            <div class="card-body">
+                <form action="/seuendereco" method="POST">
+                    <div class="form-group">
+                        <label for="cep">Cp</label>
+                        <input class="form-control" type="text" name="cep" id="cep">
+                        <a href="/src/functions/busca.Cep.js"><input type="submit" class="btn btn-outline-success mt-2" value="Buscar"></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</form> --}}
+<h1>Cadastre seu endereço</h1>
+ <form action="/seuendereco" method="POST">
+<form class="row g-3">
+  <div class="col-md-8">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" name="email">
+  </div>
+ 
+  <div class="col-md-8">
+    <label for="inputAddress" class="form-label">Edereço</label>
+    <input type="text" class="form-control" name="endereco" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  
+  <div class="col-md-8">
+    <label for="inputCity" class="form-label">Cidade</label>
+    <input type="text" class="form-control" name="cidade"  id="inputCity">
+  </div>
+
+  </div>
+  <div class="col-md-6">
+    <label for="inputZip" class="form-label">Cep</label>
+    <input type="text" class="form-control" name="cep" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">enviar</button>
+  </div>
+</form>
+</form>
